@@ -1,24 +1,11 @@
-# README
+# Sheduled Tweets
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+`brew info redis`
 
-* Ruby version
+Start background:
+`brew services restart redis`
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+redis without background:
+`/usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf`
